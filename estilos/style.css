@@ -2,10 +2,25 @@ body{
 background-color: white;
 }
 
+h2{
+    font-family: "Bebas Neue";
+    color: white;
+    font-size: 50px;
+    line-height: 0px;
+    background-color: rgba(255,255,255,0);
+    padding: 70px;
+    margin: 0;
+    width: 100%;
+}
+
 h1{
     font-family: "Bebas Neue";
     color: black;
     text-align: center;
     font-size: 100px;
     line-height: 0px;
+    background-color: rgba(255,255,255,0.9);
+    padding: 70px;
+    margin: 0;
+    width: 100%;
 }
