@@ -1,8 +1,9 @@
 body{
-background-color: brown;
+background-color: white;
 }
-@media(min-width:460px){
-    body{
-        background-color: blue;
-    }
+
+h1{
+    font-family: "Bebas+Neue";
+    color: black;
+    text-align: center;
 }
