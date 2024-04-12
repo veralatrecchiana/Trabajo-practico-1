@@ -56,21 +56,27 @@ li{
 }
 
 .lupa_perfil_carrito{
-    list-style: none;
-    text-decoration: none;
     float: right;
     padding: 5%;
     padding-top: 0%;
+}
+
+.listas{
+    list-style: none;
+    text-decoration: none;
     position: absolute;
     top: 2%;
     right:5%;
+    margin-right: 2%;
 }
 
 .productos{
+    padding: 0.5%;
+}
+.lista_ul{
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    padding: 0.5%;
 }
