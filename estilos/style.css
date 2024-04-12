@@ -37,4 +37,8 @@ li{
     text-decoration: none;
     color: black;
     display: block;
+        font-family: "Abel", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+      
 }
