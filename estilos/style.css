@@ -4,7 +4,7 @@ body{
     margin: 0px;
 }
 
-h2{
+header{
     font-family: "Bebas Neue";
     color: white;
     text-align: center;
@@ -29,6 +29,15 @@ p{
     font-family: "Abel";
 }
 
+.foto-producto{
+    width: 20px;
+    height: 40px;
+}
+
+.foto-ancho{
+    width: 100px;
+    height: 50px;
+}
 /*
 Sofi*/
 
