@@ -40,5 +40,15 @@ li{
         font-family: "Abel", sans-serif;
         font-weight: 400;
         font-style: normal;
-      
+}
+
+.lupa_perfil_carrito{
+    list-style: none;
+    text-decoration: none;
+    color: black;
+        font-family: "Abel", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+    float: right;
+    margin-right: 2%;
 }
