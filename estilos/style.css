@@ -40,6 +40,10 @@ Sofi*/
 
 /*Agus
 =======*/
+
+.Home {
+
+}
 li{
     list-style: none;
     text-decoration: none;
@@ -55,19 +59,18 @@ li{
     list-style: none;
     text-decoration: none;
     float: right;
-<<<<<<< HEAD
-    margin-right: 35px;
-    
+    padding: 5%;
+    padding-top: 0%;
+    position: absolute;
+    top: 2%;
+    right:5%;
 }
 
 .productos{
     display: flex;
     flex-wrap: wrap;
-    flex-direction: row-reverse;
+    flex-direction: row;
     justify-content: space-around;
     align-items: center;
+    padding: 0.5%;
 }
-=======
-    margin-right: 2%;
-}
->>>>>>> 6dd7f88b9471d3382952c4519c9efd83f54aee0f
