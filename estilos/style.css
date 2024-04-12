@@ -65,6 +65,9 @@ li{
     float: right;
     padding: 5%;
     padding-top: 0%;
+    position: absolute;
+    top: 2%;
+    right:5%;
 }
 
 .listas{
@@ -78,15 +81,17 @@ li{
 
 .productos{
     padding: 0.5%;
+    flex: 0 0 calc(50% - 40px); 
 }
-.lista_ul{
+.lista_productos{
     display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
+    justify-content: space-around;
+    list-style: none;
+    padding: 0;
+    flex-wrap: wrap; 
     justify-content: space-around;
     align-items: center;
 }
-
 
 
 
