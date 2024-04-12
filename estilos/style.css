@@ -31,3 +31,10 @@ h1{
 p{
     font-family: "Abel";
 }
+
+li{
+    list-style: none;
+    text-decoration: none;
+    color: black;
+    display: block;
+}
