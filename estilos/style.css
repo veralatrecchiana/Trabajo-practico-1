@@ -1,16 +1,15 @@
+Vera
 body{
-background-color: white;
+    background-color: white;
+    margin: 0px;
 }
 
 h2{
     font-family: "Bebas Neue";
     color: white;
-    font-size: 50px;
-    line-height: 0px;
-    background-color: rgba(255,255,255,0);
-    padding: 70px;
-    margin: 0;
-    width: 100%;
+    text-align: center;
+    font-size: 10px;
+    background-color: rgba(0,0,0,1);
 }
 
 h1{
@@ -20,7 +19,44 @@ h1{
     font-size: 100px;
     line-height: 0px;
     background-color: rgba(255,255,255,0.9);
-    padding: 70px;
-    margin: 0;
+    padding: 50px;
     width: 100%;
 }
+
+p{
+    font-family: "Abel";
+}
+
+<<<<<<< HEAD
+
+Sofi
+
+
+
+
+
+
+
+Agus
+=======
+li{
+    list-style: none;
+    text-decoration: none;
+    color: black;
+    display: block;
+        font-family: "Abel", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+}
+
+.lupa_perfil_carrito{
+    list-style: none;
+    text-decoration: none;
+    color: black;
+        font-family: "Abel", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+    float: right;
+    margin-right: 2%;
+}
+>>>>>>> 5cbb0e0d4850a6112184df7e722f657cce0e9398
