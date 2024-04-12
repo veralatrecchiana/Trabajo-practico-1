@@ -8,7 +8,7 @@ h2{
     font-family: "Bebas Neue";
     color: white;
     text-align: center;
-    font-size: 10px;
+    font-size: 20px;
     background-color: rgba(0,0,0,1);
     margin: 0px;
 
@@ -41,9 +41,6 @@ Sofi*/
 /*Agus
 =======*/
 
-.Home {
-
-}
 li{
     list-style: none;
     text-decoration: none;
@@ -80,3 +77,16 @@ li{
     justify-content: space-around;
     align-items: center;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
