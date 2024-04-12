@@ -1,4 +1,4 @@
-Vera
+/*Vera*/
 body{
     background-color: white;
     margin: 0px;
@@ -10,6 +10,8 @@ h2{
     text-align: center;
     font-size: 10px;
     background-color: rgba(0,0,0,1);
+    margin: 0px;
+
 }
 
 h1{
@@ -19,26 +21,25 @@ h1{
     font-size: 100px;
     line-height: 0px;
     background-color: rgba(255,255,255,0.9);
-    padding: 50px;
-    width: 100%;
+    padding: 50px 0;
+    margin: 0px;
 }
 
 p{
     font-family: "Abel";
 }
 
-<<<<<<< HEAD
-
-Sofi
-
+/*
+Sofi*/
 
 
 
 
 
 
-Agus
-=======
+
+/*Agus
+=======*/
 li{
     list-style: none;
     text-decoration: none;
@@ -59,4 +60,3 @@ li{
     float: right;
     margin-right: 2%;
 }
->>>>>>> 5cbb0e0d4850a6112184df7e722f657cce0e9398
