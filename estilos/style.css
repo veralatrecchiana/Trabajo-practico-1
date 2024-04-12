@@ -1,7 +1,7 @@
 Vera
 body{
-background-color: white;
-margin: 0px;
+    background-color: white;
+    margin: 0px;
 }
 
 h2{
@@ -20,7 +20,6 @@ h1{
     line-height: 0px;
     background-color: rgba(255,255,255,0.9);
     padding: 50px;
-    margin: 0;
     width: 100%;
 }
 
@@ -28,6 +27,7 @@ p{
     font-family: "Abel";
 }
 
+<<<<<<< HEAD
 
 Sofi
 
@@ -38,3 +38,11 @@ Sofi
 
 
 Agus
+=======
+li{
+    list-style: none;
+    text-decoration: none;
+    color: black;
+    display: block;
+}
+>>>>>>> 5cbb0e0d4850a6112184df7e722f657cce0e9398
