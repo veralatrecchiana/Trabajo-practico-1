@@ -69,20 +69,14 @@ li{
 
 .lupa_perfil_carrito{
     float: right;
-    padding: 5%;
+    padding: 1%;
     padding-top: 0%;
-    position: absolute;
-    top: 2%;
-    right:5%;
+    width: 2%;
 }
 
 .listas{
     list-style: none;
     text-decoration: none;
-    position: absolute;
-    top: 2%;
-    right:5%;
-    margin-right: 2%;
 }
 
 .productos{
