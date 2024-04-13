@@ -9,7 +9,7 @@
         <link href = "../estilos/style.css" rel="stylesheet">
     </head>
     <body>
-        
+
         <header>
             <p>3 y 6 cuotas sin interes</p>
             <h1>KOSIUKO</h1>
@@ -21,6 +21,13 @@
             ¿OLVIDASTE TU CONTRASEÑA?
         </h2>
 
+        <form action="login.html" method = "get">
+            <div>
+                <label for ="recupero">Quiero recuperar mi contraseña</label>
+                    <input type = "checkbox" name = "recupero" value = "">
+            </div>
+        </form>
+
         <p>Por favor, ingresá tu e-mail para restablecer tu contraseña </p>
 
         <form action="login.html" method="get">
@@ -28,6 +35,8 @@
                 <label for="contranueva">E-mail *</label>
                 <input type="email" name="contranueva" value="" required>
             </div>
+
+            <button>RECUPERAR</button>
         </nav>
     </body>
 </html>
