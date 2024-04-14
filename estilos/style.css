@@ -82,13 +82,15 @@ li{
     left: auto;
 }
 
+.signup{
+    width: 5%;
+    height: 5%;
+}
 .secciones{
     display: flex;
     flex-direction: row;
     list-style: none;
     justify-content: space-around;
-
-
 }
 
 .articulos{
@@ -101,11 +103,13 @@ li{
 .productos{
     padding: 0.5%;
     flex: 30%;
-    display: flex;
-    flex-direction: column;
     align-items: left;
     text-decoration: none;
     text-align: left;
+    display: block;
+    text-decoration: none;
+    color: black;
+    width: 30%;
 }
 .productos img{
     width: 100%;
@@ -126,12 +130,17 @@ li{
     color: gray;
     font-size: 14px;
 }
-.comprar{
-    float: right;
-    position: absolute;
-    top: 5%;
-    right: 1%;
-    left: auto;
+
+.btn-detalle, .btn-carrito {
+    display: inline-block;
+    padding: 5px 10px;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10px;
 }
 
 
@@ -165,20 +174,6 @@ a{
     text-decoration: none;
     color: black;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
