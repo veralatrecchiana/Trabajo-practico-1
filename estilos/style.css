@@ -68,39 +68,102 @@ li{
 }
 
 .lupa_perfil_carrito{
-    float: right;
-    padding: 1%;
-    padding-top: 0%;
-    width: 2%;
+    padding: 0%;
+    width: 35%;
 }
 
-.listas{
+.iconos{
+    display: flex;
+    flex-direction: row;
+    float: right;   
+    position: absolute;
+    top: 2%;
+    right: 1%;
+    left: auto;
+}
+
+.secciones{
+    display: flex;
+    flex-direction: row;
     list-style: none;
-    text-decoration: none;
+    justify-content: space-around;
+
+
+}
+
+.articulos{
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+    padding: 0;
 }
 
 .productos{
     padding: 0.5%;
-    flex: 0 0 calc(50% - 40px); 
-}
-.lista_productos{
+    flex: 30%;
     display: flex;
-    justify-content: space-around;
-    list-style: none;
-    padding: 0;
-    flex-wrap: wrap; 
-    justify-content: space-around;
-    align-items: center;
+    flex-direction: column;
+    align-items: left;
+    text-decoration: none;
+    text-align: left;
+}
+.productos img{
+    width: 100%;
+    height: auto;
+    margin-bottom: 0%;
 }
 
 
+.nombre, .descripcion {
+    margin: 0px 0;
+}
+
+.descripcion, .precio {
+    margin: 5x 0;
+    
+}
+.descripcion{
+    color: gray;
+    font-size: 14px;
+}
 
 
+.articulo {
+    display: block;
+  }  
+  input[type="radio"] {
+    display: none;
+  }
+
+input[type="radio"]:checked ~ .articulos .articulo {
+    display: none;
+  }
+  
+#filtro-todos:checked ~ .articulos .articulo {
+    display: block;
+  }
+  
+#filtro-ropa:checked ~ .articulos .mujer {
+    display: block;
+  }
+  
+#filtro-accesorios:checked ~ .articulos .accesorios {
+    display: block;
+  }
 
 
+a{
+    text-decoration: none;
+    color: black;
+}
 
-
-
-
+footer{
+    font-family: "Bebas Neue";
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    background-color: rgba(0,0,0,1);
+    margin: 0%;
+}
 
 
