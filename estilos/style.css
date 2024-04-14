@@ -126,6 +126,15 @@ li{
     color: gray;
     font-size: 14px;
 }
+.comprar{
+    float: right;
+    position: absolute;
+    top: 5%;
+    right: 1%;
+    left: auto;
+}
+
+
 
 
 .articulo {
@@ -157,6 +166,24 @@ a{
     color: black;
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 footer{
     font-family: "Bebas Neue";
     color: white;
@@ -165,5 +192,4 @@ footer{
     background-color: rgba(0,0,0,1);
     margin: 0%;
 }
-
 
