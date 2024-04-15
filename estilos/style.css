@@ -20,7 +20,7 @@ h1{
     text-align: center;
     font-size: 100px;
     line-height: 0px;
-    background-color: rgba(255,255,255,0.9);
+    background-color: white;
     padding: 50px 0;
     margin: 0px;
 }
@@ -43,6 +43,23 @@ a{
     font-family: "Abel";
 }
 
+.login{
+    text-align: center;
+}
+
+.foto-logo{
+    background-color: rgba(255,255,255,0.5);
+    float: right;
+    margin: 0 0 10px 10px;
+}
+
+.logo {
+    margin: 0 0 10px 10px;
+    width: 50px;
+}
+
+
+
 /*
 Sofi*/
 
@@ -51,9 +68,7 @@ Sofi*/
     font-size: 80%;
 }
 
-.logo {
-    background-color: white;
-}
+
 
 /*Agus
 =======*/
