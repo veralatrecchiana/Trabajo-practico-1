@@ -11,7 +11,6 @@ header{
     font-size: 15px;
     background-color: rgba(0,0,0,1);
     margin: 0px;
-
 }
 
 h1{
@@ -27,6 +26,7 @@ h1{
 
 p{
     font-family: "Abel";
+    margin-bottom: 0;
 }
 
 .foto-producto{
