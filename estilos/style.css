@@ -162,7 +162,13 @@ li{
 }
 
 
-
+.seccion{
+    font-family: "Bebas Neue";
+    color: black;
+    text-align: center;
+    font-size: 250%;
+    margin-bottom: 0%;
+}
 
 .articulo {
     display: block;
@@ -194,7 +200,7 @@ a{
 }
 
 
-
+/*TEXT DECORATION LINE THROUGH PARA LOS PERCIOS EN SALE*/
 
 
 footer{
