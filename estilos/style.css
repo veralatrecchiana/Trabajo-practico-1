@@ -212,3 +212,59 @@ footer{
     margin-top: 90%;
 }
 
+.contenedor-listas {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    margin-top: 5%;
+}
+
+.contenedor-listas ul {
+    flex: 1; 
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    margin-left: 10%;
+}
+
+.contenedor-listas ul li {
+    padding: 5px;
+    margin: 5px;
+}
+.productos_carrito{
+    width: 160%;
+}
+
+.precios_carrito{
+    margin-top: 20%;
+    margin-bottom: 80%;
+    font-family: "Abel", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.TOTAL{
+    font-family: "Bebas Neue";
+    color: black;
+    margin-left: 50%;
+}
+.NUM{
+    font-family: "Bebas Neue";
+    color: black;
+    margin-left: 6.5%;
+}
+.total_num {
+    display: flex;
+    align-items: center;
+}
+
+.total_num p {
+    margin: 0;
+    padding-right: 20px; 
+}
+.CHECKOUT{
+    font-family: "Bebas Neue";
+    color: black;
+    font-size: 125%;
+    margin-left: 60%;
+}
