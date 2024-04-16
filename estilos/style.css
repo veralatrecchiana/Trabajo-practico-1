@@ -246,6 +246,9 @@ li{
     font-size: 14px;
 }
 
+.precio{
+    margin-bottom: 0%;
+}
 .btn-detalle, .btn-carrito {
     display: inline-block;
     padding: 5px 10px;
@@ -255,7 +258,10 @@ li{
     border: none;
     border-radius: 5px;
     cursor: pointer;
-    margin-right: 10px;
+    width: auto;
+    height: auto;
+    margin-top: 0px;
+    margin-bottom: 10%;
 }
 
 
