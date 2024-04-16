@@ -251,7 +251,6 @@ li{
     font-size: 14px;
 }
 
-.btn-detalle, .btn-carrito{
 .precio{
     margin-bottom: 0%;
 }
@@ -384,4 +383,5 @@ a{
     margin-top: 0%;
     margin-left: 46%;
     background-color: black;
+    margin-bottom: 10%;
 }
