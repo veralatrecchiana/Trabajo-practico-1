@@ -9,7 +9,7 @@ header{
     color: white;
     text-align: center;
     font-size: 15px;
-    margin: 0px;
+    margin: 0px; 
 }
 
 h1{
@@ -169,6 +169,18 @@ footer {
     margin-top: 2%;
     background-position-x: right;
 }
+
+.preciodescrip {
+    text-align: right;
+    font-family: "Abel";
+    font-size: normal;
+    line-height: 10%;
+    font-size: 120%;
+    height: 100%;
+    top: 30%;
+
+}
+
 
 /*Agus
 =======*/
