@@ -78,8 +78,9 @@ Sofi*/
     width:5%;
 }
 
-h2{
-    line-height: 20% ;
+.sub {
+    font-weight: bold;
+    font-size: 200%;
 }
 
 /*Agus
