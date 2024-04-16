@@ -60,16 +60,27 @@ a{
 /*
 Sofi*/
 
-.infotitulo {
-    font-family: "Roboto";
-    font-size: 80%;
-}
 
 .registro {
     text-align: center;
     font-family: "Abel";
 }
 
+.olvido {
+    text-align: center;
+    font-family: "Abel";
+}
+
+.logokosiu {
+    margin-left: 90%;
+    margin-top: 0%;
+    height: 2%;
+    width:5%;
+}
+
+h2{
+    line-height: 20% ;
+}
 
 /*Agus
 =======*/
