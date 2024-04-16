@@ -10,6 +10,7 @@ header{
     text-align: center;
     font-size: 15px;
     margin: 0px;
+    margin-top: 0;
 }
 
 
@@ -26,7 +27,7 @@ h1{
 
 .cuotas{
     font-family: "Abel";
-    margin-bottom: 0;
+    margin-bottom:  0;
     background-color: rgba(0,0,0,1);
 }
 
@@ -245,18 +246,20 @@ li{
     font-size: 14px;
 }
 
-.btn-detalle, .btn-carrito {
+.btn-detalle, .btn-carrito{
     display: inline-block;
-    padding: 5px 10px;
+    padding: 15px 30px;
     background-color: black;
     color: white;
     text-decoration: none;
     border: none;
     border-radius: 5px;
     cursor: pointer;
-    margin-right: 10px;
+    margin-right: 20px;
+    margin-bottom: 25px;
+    margin-top: 0px;
+    width: 40%;
 }
-
 
 .seccion{
     font-family: "Bebas Neue";
