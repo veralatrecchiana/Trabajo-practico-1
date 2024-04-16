@@ -10,9 +10,7 @@ header{
     text-align: center;
     font-size: 15px;
     margin: 0px;
-    margin-top: 0;
 }
-
 
 h1{
     font-family: "Bebas Neue";
@@ -93,7 +91,13 @@ button {
 }
 
 footer {
-    margin-bottom: 0%;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 0%;
 }
 
 .nombreart {
@@ -246,7 +250,14 @@ li{
     font-size: 14px;
 }
 
+<<<<<<< HEAD
 .btn-detalle, .btn-carrito{
+=======
+.precio{
+    margin-bottom: 0%;
+}
+.btn-detalle, .btn-carrito {
+>>>>>>> 21dcdfb92cc6968ccd7ba3404fdb054ac92ae501
     display: inline-block;
     padding: 15px 30px;
     background-color: black;
@@ -255,10 +266,17 @@ li{
     border: none;
     border-radius: 5px;
     cursor: pointer;
+<<<<<<< HEAD
     margin-right: 20px;
     margin-bottom: 25px;
     margin-top: 0px;
     width: 40%;
+=======
+    width: auto;
+    height: auto;
+    margin-top: 0px;
+    margin-bottom: 10%;
+>>>>>>> 21dcdfb92cc6968ccd7ba3404fdb054ac92ae501
 }
 
 .seccion{
