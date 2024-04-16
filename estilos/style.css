@@ -83,6 +83,88 @@ Sofi*/
     font-size: 200%;
 }
 
+button {
+    background-color: black;
+    font-family: "Abel";
+    color:white;
+    width: 10%;
+    margin-top: 2%;
+    
+}
+
+footer {
+    margin-bottom: 0%;
+}
+
+.nombreart {
+    text-align: left;
+    font-family: "Bebas Neue";
+    font-weight: bold;
+    font-size: 200%;
+    line-height: 10%;
+}
+
+.im1 {
+    width:20%;
+    height:30%;
+}
+
+.im2 {
+    width:20%;
+    height:30%;
+    
+}
+
+.contenedor {
+    display:inline-block;
+    
+}
+
+.categoria {
+    text-align: left;
+    font-family: "Abel";
+    font-size: normal;
+    line-height: 10%;
+    font-size: 120%;
+}
+
+.precio {
+    text-align: right;
+    font-family: "Abel";
+    font-size: normal;
+    line-height: 10%;
+    font-size: 120%;
+    height: 5%;
+
+}
+
+.infotitulo {
+    text-align: right;
+    font-family: "Abel";
+    font-size: normal;
+    line-height: 10%;
+    font-size: 120%;
+    height: 5%;
+}
+
+.infoprod {
+    text-align: right;
+    font-family: "Abel";
+    font-size: normal;
+    line-height: 10%;
+    font-size: 100%;
+    height: 5%;
+}
+
+.agregar {
+    background-color: black;
+    font-family: "Abel";
+    color:white;
+    width: 10%;
+    margin-top: 2%;
+    background-position-x: right;
+}
+
 /*Agus
 =======*/
 
