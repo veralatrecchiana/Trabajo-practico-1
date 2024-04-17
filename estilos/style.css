@@ -457,7 +457,6 @@ a{
     }
     .logokosiu{
         width: 25%;
-        margin-right: AUTO;
         margin-left:5%;
         margin-top: 10%;
     }
@@ -503,9 +502,10 @@ a{
         align-items: center;
     }
     .CHECKOUT{
-        width: 20%;
+        width: 40%;
+        margin-left: 33.3%;
     }
-    footer {
-        
+    footer{
+        width: 73%;
     }
 }
