@@ -1,31 +1,31 @@
 /*Vera*/
 body{
     background-color: white;
-    margin: 0px;
+    margin: 0%;
 }
 
 header{
     font-family: "Bebas Neue";
     color: white;
     text-align: center;
-    font-size: 15px;
-    margin: 0px; 
+    font-size: 70%;
+    margin: 0%; 
 }
 
 h1{
     font-family: "Bebas Neue";
     color: black;
     text-align: center;
-    font-size: 100px;
-    line-height: 0px;
+    font-size: 900%;
+    line-height: 0%;
     background-color: white;
-    padding: 50px 0;
-    margin: 0px;
+    padding: 4% 0%;
+    margin: 0%;
 }
 
 .cuotas{
     font-family: "Abel";
-    margin-bottom:  0;
+    margin-bottom:  0%;
     background-color: rgba(0,0,0,1);
 }
 
@@ -35,12 +35,7 @@ a{
 
 .login{
     text-align: center;
-}
-
-.foto-logo{
-    background-color: rgba(255,255,255,0.5);
-    float: right;
-    margin: 0 0 10px 10px;
+    font-family: "Abel";
 }
 
 .logo {
@@ -51,8 +46,8 @@ a{
 .mujer{
     text-align: center;
     font-family: "Bebas Neue";
-    margin: 0;
-    font-size: 20px;
+    margin: 0%;
+    font-size: 20%;
 }
 
 /*
@@ -154,37 +149,48 @@ footer {
     text-align: left;
     font-family: "Abel";
     font-size: normal;
-    line-height: 10%;
+    line-height: 1.5;
     font-size: 120%;
-    height: 5%;
+    height: 0%;
+    font-weight: bold;
+    position: flex;
+    order: 1;
+
 }
 
 .infoprod1 {
-    text-align: right;
+    text-align: left;
     font-family: "Abel";
     font-size: normal;
-    line-height: 10%;
+    line-height: 1.5;
     font-size: 90%;
-    height: 2%;
-    
+    height: 0%;
+    position: flex;
+    order: 2;
+
 }
 
 .infotitulo2 {
     text-align: left;
     font-family: "Abel";
     font-size: normal;
-    line-height: 10%;
+    line-height: 1.5;
     font-size: 120%;
-    height: 5%;
+    height: 0%;
+    font-weight: bold;
+    position: flex;
+    order: 3;
 }
 
 .infoprod2 {
-    text-align: right;
+    text-align: left;
     font-family: "Abel";
     font-size: normal;
-    line-height: 10%;
+    line-height: 1.5;
     font-size: 100%;
-    height: 5%;
+    height: 0%;
+    position: flex;
+    order: 4;
     
 }
 
@@ -196,8 +202,8 @@ footer {
     height: 5%;
     margin-top: 2%;
     position: flex;
-    line-height: 100%;
-    align-self: center;
+    line-height: 1.5;
+    align-self: left;
 }
 
 .preciodescrip {
