@@ -241,6 +241,16 @@ li{
     left: auto;
 }
 
+.iconos_carrito{
+        display: flex;
+        flex-direction: row;
+        float: right;   
+        position: absolute;
+        top: 2%;
+        right: 1%;
+        left: auto;
+}
+
 .signup{
     width: 5%;
     height: 5%;
@@ -296,21 +306,21 @@ li{
 }
 .btn-detalle, .btn-carrito {
     display: inline-block;
-    padding: 15px 30px;
+    padding: 3% 5%;
     background-color: black;
     color: white;
     text-decoration: none;
     border: none;
-    border-radius: 5px;
+    border-radius: 1%;
     cursor: pointer;
-    margin-right: 20px;
-    margin-bottom: 25px;
-    margin-top: 0px;
-    width: 40%;
+    margin-right: 5%;
+    margin-bottom: 5%;
+    margin-top: 0%;
+    width: 30%;
     width: auto;
     height: auto;
-    margin-top: 0px;
-    margin-bottom: 10%;
+    margin-top: 0%;
+    margin-bottom: 8%;
 }
 
 .seccion{
@@ -352,49 +362,41 @@ a{
 
 
 
-.contenedor-listas {
+
+
+.contenedor-producto {
     display: flex;
+    flex-direction: column;
 }
 
-.contenedor-listas ul {
-    flex: 1; /* Distribuye el espacio disponible entre las listas */
-    margin: 0;
-    padding: 0;
-    list-style-type: none;
+.producto_carrito {
+    display: flex;
+    align-items: center;
+    margin-left: 35%;
 }
 
-.contenedor-listas ul li {
-    padding: 5%;
-    margin-top: 0%;
-    margin-right: 10%;
+.producto_carrito img {
+    width: 20%; 
+    height: auto; 
 }
 
-.contenedor-total {
-    margin-top: 5%;
+.detalle {
+    display: flex;
+    flex-direction: column;
+    margin-left: 5%;
 }
-
-.contenedor-total p {
-    margin: 0;
-}
-
-.nombres_carrito{
+.nombre_carrito{
     font-family: "Bebas Neue";
-    font-size: 125%;
-    margin-top: 5%;
+    font-size: 140%;
 }
 
-.precios_carrito{
-    margin-top: 5%;
-    margin-bottom: 52%;
-    font-family: "Abel", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-}
 
-.productos_carrito{ 
-    margin-left: 45%;
-    width: 120%;
-}
+
+
+
+
+
+
 
 
 
@@ -406,10 +408,10 @@ a{
 
 .total_num p {
     margin: 0;
-    padding-right: 20px; /* Espacio entre los elementos */
+    padding-right: 20px; 
 }
 .TOTAL{
-    margin-left: 26%;
+    margin-left: 41%;
     font-family: "Bebas Neue";
     font-size: 200%;
 }
@@ -421,7 +423,7 @@ a{
 }
 .CHECKOUT{
     margin-top: 0%;
-    margin-left: 46%;
+    margin-left: 50%;
     background-color: black;
     margin-bottom: 10%;
 }
@@ -432,6 +434,58 @@ a{
     margin-right: 9%;
     float: right;
 }
-@media(min-width: 460px){
-    
+
+@media only screen and (max-width: 600px){
+    /* HOME */
+    .secciones{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .iconos{
+        display: flex;
+        flex-direction: row;
+        position: initial;
+        float: initial;
+        justify-content: center;
+    }
+    .logokosiu{
+        width: 20%;
+        margin-right: AUTO;
+        margin-left:5%;
+    }
+    .articulos{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        flex: 100%;
+        padding: 0.5%;
+    }
+    .productos{
+        width:100%;
+    }
+    .logokosiu{
+        width: 15%;
+        margin-left: 70%;
+    }
+
+    /* CARRITO */
+    .producto_carrito{
+        width: 130%;
+        margin-left: 20%;
+    }
+    .TOTAL{
+        margin-left: 37%;
+    }
+    .iconos_carrito{
+        display: flex;
+        flex-direction: row;
+        position: initial;
+        float: initial;
+        justify-content: center;
+        width: 60%;
+    }
+    .CHECKOUT{
+        width: 20%;
+    }
 }
