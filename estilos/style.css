@@ -110,15 +110,19 @@ footer {
 }
 
 .im1 {
-    height: 42%;
-    width: 21%;
-    margin: 0.4%;
+    height: 48%;
+    width: 24%;
+    margin: 0.2%;
+    margin-top: 0%;
+    order: 1;
 }
 
 .im2 {
-    height: 42%;
-    width: 21%;
+    height: 48%;
+    width: 24%;
     margin: 0.4%;
+    margin-top: 0%;
+    order: 2;
 }
 
 .contenedor {
@@ -132,8 +136,9 @@ footer {
 
 .contenedor2 {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     background-color: white;
+    order: 3;
 }
 
 .categoria {
@@ -175,10 +180,10 @@ footer {
 .preciodescrip {
     text-align: left;
     font-family: "Abel";
+    font-weight: bold;
     font-size: normal;
     line-height: 0%;
     font-size: 120%;
-
 }
 
 
