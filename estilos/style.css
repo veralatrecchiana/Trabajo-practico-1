@@ -110,19 +110,30 @@ footer {
 }
 
 .im1 {
-    width:20%;
-    height:30%;
+    height: 42%;
+    width: 21%;
+    margin: 0.4%;
 }
 
 .im2 {
-    width:20%;
-    height:30%;
-    
+    height: 42%;
+    width: 21%;
+    margin: 0.4%;
 }
 
 .contenedor {
-    display:inline-block;
-    
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    padding: 15%;
+    height: 100%;
+    padding: 1%;
+}
+
+.contenedor2 {
+    display: flex;
+    flex-direction: row;
+    background-color: white;
 }
 
 .categoria {
@@ -131,16 +142,6 @@ footer {
     font-size: normal;
     line-height: 10%;
     font-size: 120%;
-}
-
-.precio {
-    text-align: right;
-    font-family: "Abel";
-    font-size: normal;
-    line-height: 10%;
-    font-size: 120%;
-    height: 5%;
-
 }
 
 .infotitulo {
@@ -167,19 +168,19 @@ footer {
     color:white;
     width: 10%;
     margin-top: 2%;
-    background-position-x: right;
+    position: flex;
+    line-height: 100%;
 }
 
 .preciodescrip {
-    text-align: right;
+    text-align: left;
     font-family: "Abel";
     font-size: normal;
-    line-height: 10%;
+    line-height: 0%;
     font-size: 120%;
-    height: 100%;
-    top: 30%;
 
 }
+
 
 
 /*Agus
