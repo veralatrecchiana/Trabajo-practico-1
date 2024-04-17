@@ -87,6 +87,7 @@ button {
     color:white;
     width: 10%;
     margin-top: 2%;
+    height: 5%;
     
 }
 
@@ -149,8 +150,8 @@ footer {
     font-size: 120%;
 }
 
-.infotitulo {
-    text-align: right;
+.infotitulo1 {
+    text-align: left;
     font-family: "Abel";
     font-size: normal;
     line-height: 10%;
@@ -158,23 +159,45 @@ footer {
     height: 5%;
 }
 
-.infoprod {
+.infoprod1 {
+    text-align: right;
+    font-family: "Abel";
+    font-size: normal;
+    line-height: 10%;
+    font-size: 90%;
+    height: 2%;
+    
+}
+
+.infotitulo2 {
+    text-align: left;
+    font-family: "Abel";
+    font-size: normal;
+    line-height: 10%;
+    font-size: 120%;
+    height: 5%;
+}
+
+.infoprod2 {
     text-align: right;
     font-family: "Abel";
     font-size: normal;
     line-height: 10%;
     font-size: 100%;
     height: 5%;
+    
 }
 
 .agregar {
     background-color: black;
     font-family: "Abel";
     color:white;
-    width: 10%;
+    width: 20%;
+    height: 5%;
     margin-top: 2%;
     position: flex;
     line-height: 100%;
+    align-self: center;
 }
 
 .preciodescrip {
@@ -185,7 +208,6 @@ footer {
     line-height: 0%;
     font-size: 120%;
 }
-
 
 
 /*Agus
