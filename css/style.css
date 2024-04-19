@@ -213,18 +213,6 @@ footer {
     font-size: 120%;
 }
 
-@media only screen and (max-width: 600px) {
-    button {
-        background-color: black;
-        font-family: "Abel";
-        color:white;
-        width: 20%;
-        margin-top: 2%;
-        height: 5%;
-    }
-
-    
-}
 
 /*Agus
 =======*/
@@ -259,9 +247,11 @@ li{
 .iconos_carrito{
         display: flex;
         flex-direction: row;
+        float: right;   
         position: absolute;
         top: 2%;
         right: 1%;
+        left: auto;
 }
 
 .signup{
@@ -385,11 +375,11 @@ a{
 .producto_carrito {
     display: flex;
     align-items: center;
-    margin-left: 30%;
+    margin-left: 35%;
 }
 
 .producto_carrito img {
-    width: 30%; 
+    width: 20%; 
     height: auto; 
 }
 
@@ -402,6 +392,13 @@ a{
     font-family: "Bebas Neue";
     font-size: 140%;
 }
+
+
+
+
+
+
+
 
 
 
@@ -442,7 +439,7 @@ a{
 }
 
 @media only screen and (max-width: 600px){
-    /* HOME */ 
+    /* HOME */
     .secciones{
         display: flex;
         flex-direction: column;
@@ -485,19 +482,23 @@ a{
     /* CARRITO */
     
     .producto_carrito{
-        width: 80%;
+        width: 130%;
         margin-left: 10%;
     }
     .TOTAL{
         margin-left: 24%;
     }
     .iconos_carrito{
-        position: static;
-        margin-left: 15%;
+        display: flex;
+        flex-direction: row;
+        width: 60%;
+        margin-top: 6%;
+        position: initial;
+        float: initial;
+        justify-content: center;
     }
     .CHECKOUT{
-        width: 30%;
+        width: 40%;
         margin-left: 33.3%;
     }
-    
 }

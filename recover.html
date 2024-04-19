@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title> ¿Olvidaste tu contraseña? </title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Abel&family=Bebas+Neue&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+        <link href = "../estilos/style.css" rel="stylesheet">
+    </head>
+    <body>
+
+        <header>
+            <p class = "cuotas">3 y 6 cuotas sin interes</p>
+            <h1>KOSIUKO</h1>
+            <img src="../logo_talles/logo.png" alt="Logo KOSIUKO" class = "logokosiu">
+            
+            <ul class = "iconos">
+                <li>
+                    <a href = "./login.html">
+                        <img src="../img's/perfil.png" alt="Perfil" class = "lupa_perfil_carrito">
+                    </a>
+                </li>
+                <li>
+                    <a href="./register.html">
+                        <img src="../img's/sigup.png" alt="Registrarse" class = "lupa_perfil_carrito">
+                    </a>
+                </li>
+                <li>
+                    <a href = "../index.html">
+                        <img src="../img's/home.png" alt="Home" class = "lupa_perfil_carrito">
+                    </a>
+                </li>
+                <li>
+                    <a href = "./cart.html">
+                        <img src = "../img's/bolsa.png" alt = "Carrito" class = "lupa_perfil_carrito">
+                    </a>
+                </li>
+            </ul>
+            
+        </header>
+
+        <section class = "olvido">
+            <h2 class = "sub">
+                ¿OLVIDASTE TU CONTRASEÑA?
+            </h2>
+    
+            <form action="login.html" method = "get">
+                <div>
+                    <label for ="recupero">Quiero recuperar mi contraseña</label>
+                        <input type = "checkbox" name = "recupero" required>
+                </div>
+            </form>
+    
+            <p>Por favor, ingresá tu e-mail para restablecer tu contraseña </p>
+    
+            <form action="login.html" method="get">
+                <div>
+                    <label for="contranueva">E-mail:</label>
+                    <input type="email" name="contranueva" placeholder="Ej: robertamanzur@hotmail.com" required>
+                </div>
+    
+                <button>RECUPERAR</button>
+            </form>
+
+        </section>
+        
+        <footer>
+            <h6>Integrantes del equipo: Sofia Kuo, Agustina Arduino, Vera Latrecchiana</h6>
+        </footer>
+        
+    </body>
+</html>
