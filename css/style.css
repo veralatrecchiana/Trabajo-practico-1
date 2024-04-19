@@ -38,7 +38,7 @@ a{
     font-family: "Abel";
 }
 
-.logo {
+.logo{
     margin: 0 0 10px 10px;
     width: 50px;
 }
@@ -218,9 +218,7 @@ footer {
 
 /*Agus
 =======*/
-li{
-    list-style: none;
-    text-decoration: none;
+section{
     color: black;
     display: block;
         font-family: "Abel", sans-serif;
@@ -269,6 +267,7 @@ li{
 
 .articulos{
     display: flex;
+    flex-direction: row;
     flex-wrap: wrap;
     list-style-type: none;
     padding: 0;
@@ -484,7 +483,7 @@ a{
     /* CARRITO */
     
     .producto_carrito{
-        width: 130%;
+        width: 90%;
         margin-left: 10%;
     }
     .TOTAL{
