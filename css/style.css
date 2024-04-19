@@ -36,6 +36,7 @@ a{
 .login{
     text-align: center;
     font-family: "Abel";
+    padding: 0%;
 }
 
 .logo{
@@ -48,6 +49,18 @@ a{
     font-family: "Bebas Neue";
     margin: 0%;
     font-size: 20%;
+}
+
+.ingresar{
+    padding: 30%;
+}
+
+.sin-cuenta{
+    padding: 30%;
+}
+
+.recuperar-contraseña{
+    padding: 30%;
 }
 
 /*
@@ -86,13 +99,15 @@ button {
 
 footer {
     position:fixed;
-    bottom: 0;
+    bottom: 0%;
     width: 100%;
     background-color: black;
     color: white;
     text-align: center;
     padding: 0%;
     font-family: "Abel";
+    font-size: 70%;
+    margin: 0%;
 }
 
 
