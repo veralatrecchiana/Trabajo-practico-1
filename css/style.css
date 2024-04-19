@@ -27,10 +27,6 @@ h1{
     font-family: "Abel";
     margin-bottom:  0%;
     background-color: rgba(0,0,0,1);
-    text-align: center;
-    padding: 0%;
-    margin-top: 0%;
-    width: 100%;
 }
 
 a{
@@ -101,7 +97,7 @@ footer {
 
 h6 {
     font-family: "Abel";
-    font-size: 60%;
+    font-size: 0%;
 }
 
 .nombreart {
@@ -211,6 +207,7 @@ h6 {
     position: flex;
     line-height: 1.5;
     align-self: left;
+    text-align: center;
 }
 
 .preciodescrip {
