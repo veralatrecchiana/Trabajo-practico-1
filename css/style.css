@@ -85,7 +85,7 @@ button {
 }
 
 footer {
-    position: fixed;
+    position:fixed;
     bottom: 0;
     width: 100%;
     background-color: black;
@@ -214,8 +214,6 @@ footer {
     line-height: 0%;
     font-size: 120%;
 }
-
-
 
 
 /*Agus
