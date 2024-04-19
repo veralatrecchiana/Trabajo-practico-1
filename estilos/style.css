@@ -494,12 +494,11 @@ a{
     .iconos_carrito{
         display: flex;
         flex-direction: row;
+        width: 60%;
+        margin-top: 6%;
         position: initial;
         float: initial;
         justify-content: center;
-        width: 60%;
-        margin-top: 6%;
-        align-items: center;
     }
     .CHECKOUT{
         width: 40%;
