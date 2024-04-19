@@ -95,6 +95,11 @@ footer {
     font-family: "Abel";
 }
 
+h6 {
+    font-family: "Abel";
+    font-size: 60%;
+}
+
 .nombreart {
     text-align: left;
     font-family: "Bebas Neue";
@@ -212,6 +217,8 @@ footer {
     line-height: 0%;
     font-size: 120%;
 }
+
+
 
 
 /*Agus
