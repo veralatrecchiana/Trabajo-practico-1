@@ -230,6 +230,15 @@ footer {
     font-size: 120%;
 }
 
+@media(max-width:430px){
+    button {background-color: black;
+        font-family: "Abel";
+        color:white;
+        width: 20%;
+        margin-top: 2%;
+        height: 5%;}
+}
+
 
 /*Agus
 =======*/
