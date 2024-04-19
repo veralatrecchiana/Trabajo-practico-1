@@ -36,7 +36,6 @@ a{
 .login{
     text-align: center;
     font-family: "Abel";
-    padding: 0%;
 }
 
 .logo{
@@ -52,15 +51,18 @@ a{
 }
 
 .ingresar{
-    padding: 30%;
+    text-align: center;
+    font-family: "Abel";
 }
 
 .sin-cuenta{
-    padding: 30%;
+    text-align: center;
+    font-family: "Abel";
 }
 
 .recuperar-contraseña{
-    padding: 30%;
+    text-align: center;
+    font-family: "Abel";
 }
 
 /*
