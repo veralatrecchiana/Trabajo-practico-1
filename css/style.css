@@ -27,10 +27,6 @@ h1{
     font-family: "Abel";
     margin-bottom:  0%;
     background-color: rgba(0,0,0,1);
-    text-align: center;
-    padding: 0%;
-    margin-top: 0%;
-    width: 100%;
 }
 
 a{
@@ -99,6 +95,7 @@ footer {
     font-family: "Abel";
 }
 
+
 .nombreart {
     text-align: left;
     font-family: "Bebas Neue";
@@ -118,7 +115,7 @@ footer {
 .im2 {
     height: 48%;
     width: 24%;
-    margin: 0.4%;
+    margin: 0.2%;
     margin-top: 0%;
     order: 2;
 }
@@ -206,6 +203,7 @@ footer {
     position: flex;
     line-height: 1.5;
     align-self: left;
+    text-align: center;
 }
 
 .preciodescrip {
@@ -218,11 +216,11 @@ footer {
 }
 
 
+
+
 /*Agus
 =======*/
-li{
-    list-style: none;
-    text-decoration: none;
+section{
     color: black;
     display: block;
         font-family: "Abel", sans-serif;
@@ -271,6 +269,7 @@ li{
 
 .articulos{
     display: flex;
+    flex-direction: row;
     flex-wrap: wrap;
     list-style-type: none;
     padding: 0;
@@ -486,7 +485,7 @@ a{
     /* CARRITO */
     
     .producto_carrito{
-        width: 130%;
+        width: 90%;
         margin-left: 10%;
     }
     .TOTAL{
