@@ -213,18 +213,6 @@ footer {
     font-size: 120%;
 }
 
-@media only screen and (max-width: 600px) {
-    button {
-        background-color: black;
-        font-family: "Abel";
-        color:white;
-        width: 20%;
-        margin-top: 2%;
-        height: 5%;
-    }
-
-    
-}
 
 /*Agus
 =======*/
@@ -513,5 +501,4 @@ a{
         width: 40%;
         margin-left: 33.3%;
     }
-    
 }
