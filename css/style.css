@@ -230,7 +230,16 @@ footer {
     font-size: 120%;
 }
 
-@media(max-width:430px){
+.cuotas {
+    font-family: "Abel";
+    font-size: 90%;
+    background-color: black;
+    color: white;
+    position: flex;
+    text-align: center;
+    margin-top: 0;
+}
+@media(max-width:420px){
     button {background-color: black;
         font-family: "Abel";
         color:white;
