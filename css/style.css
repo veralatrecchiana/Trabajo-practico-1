@@ -241,7 +241,8 @@ footer {
     text-align: center;
     margin-top: 0;
 }
-@media(max-width:420px){
+
+@media(max-width:430px){
     button {background-color: black;
         font-family: "Abel";
         color:white;
@@ -254,7 +255,52 @@ footer {
         font-family: "Abel";
     }
 
+    .contenedor {
+        display: flex;
+        flex-direction: column;
+        position: center;
+    }
 
+    .im1 {
+        order:1;
+        width: auto;
+        margin: 0;
+        padding: 0;
+        border: 0;
+    }
+
+    .im2 {
+        order:2;
+        width: auto;
+        margin: 0;
+        padding: 0;
+        border: 0;
+    }
+
+    .contenedor2 {
+        order: 3;
+    }
+
+    .nombreart {
+        text-align: left;
+        font-family: "Bebas Neue";
+        font-weight: bold;
+        font-size: 200%;
+        line-height: 10%;
+    }
+
+    .agregar {
+        background-color: black;
+        font-family: "Abel";
+        color:white;
+        width: 25%;
+        height: 5%;
+        margin-top: 2%;
+        position: flex;
+        line-height: 1.5;
+        align-self: left;
+        text-align: center;
+    }
 }
 
 
