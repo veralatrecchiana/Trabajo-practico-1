@@ -449,8 +449,6 @@ a{
         align-items: center;
     }
     .iconos{
-        display: flex;
-        flex-direction: row;
         position: initial;
         float: initial;
         justify-content: center;
@@ -481,6 +479,9 @@ a{
     h1{
         margin-top: 15%;
     }
+    .secciones{
+        font-size: 130%;
+    }
 
     /* CARRITO */
     
@@ -492,13 +493,9 @@ a{
         margin-left: 24%;
     }
     .iconos_carrito{
-        display: flex;
-        flex-direction: row;
-        width: 60%;
-        margin-top: 6%;
         position: initial;
         float: initial;
-        justify-content: center;
+        justify-content: center;  
     }
     .CHECKOUT{
         width: 40%;
