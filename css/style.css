@@ -374,6 +374,7 @@ section{
 
 .nombre, .descripcion {
     margin: 0px 0;
+    font-family: "Bebas Neue";
 }
 
 .descripcion, .precio {
