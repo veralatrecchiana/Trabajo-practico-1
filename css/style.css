@@ -383,6 +383,7 @@ section{
 .descripcion{
     color: gray;
     font-size: 14px;
+    font-family: "Abel";
 }
 
 .precio{
