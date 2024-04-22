@@ -379,6 +379,7 @@ section{
 
 .descripcion, .precio {
     margin: 5x 0;
+    font-family: "Abel";
     
 }
 .descripcion{
