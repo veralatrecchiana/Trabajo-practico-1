@@ -21,6 +21,8 @@ formulario.addEventListener('submit', function(event){
     
     if (todosOK == true) {
         this.submit();  
+        checkboxRecupero.innerHTML = 'Recibirás un email con las instrucciones para recuperar tu contraseña';
+        checkboxRecupero.innerHTML = 'IR A LOGIN';
     }
     
 });
