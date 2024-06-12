@@ -82,50 +82,35 @@
                 Información personal
             </h3>
 
-            <a href="./login.html">Ya tengo una cuenta</a>
-
-            <form action="login.html" method="get">
-                <div>
-                    <label for="nombre">Nombre/Razon social</label>
-                    <input type = "nombre" name = "user" placeholder="Ej: Roberta" required>
-                </div>
-
-                <div>
-                    <label for="apellido">Apellidos</label>
-                    <input type = "text" name = "apellido" placeholder="Ej: Manzur" required>
-                </div>
-
-                <div>
-                    <label for="dni">DNI</label>
-                    <input type = "text" name = "user" placeholder="Ej: 46754288" required>
-                </div>
+            <form action="login.html" method="get" id = 'formulario'>
                 
                 <div>
-                    <label for="checkbox">Quiero recibir Newsletter</label>
-                    <input type="checkbox" name = "checkbox">
-                </div>
-
-                <div>
-                    <label for="date">Nacimiento</label>
-                    <input type = "date" name = "FechaNacimiento" required>
-                </div>
-
-                <div>
                     <label for="email">E-mail</label>
-                    <input type = "email" name = "email" placeholder="Ej: robertamanzur@hotmail.com" required>
+                    <input type = "email" name = "email" placeholder="Ej: robertamanzur@hotmail.com" id="email">
+                    <div id="error-email" class="error"></div>
                 </div>
                 
                 <div>
                     <label for="password">Contraseña</label>
-                    <input type = "password" name="password" required>
+                    <input type = "password" name="password" id="password">
+                    <div id="error-password" class="error"></div>
                 </div>
 
                 <div>
-                    <label for="password">Confirmar contraseña</label>
-                    <input type = "password" name="password" required>
+                    <label for="rePassword">Confirmar contraseña</label>
+                    <input type = "password" name="password" id="rePassword">
+                    <div id="error-rePassword" class="error"></div>
+                </div>
+
+                <div>
+                    <label for="checkbox">Acepto Terminos y Condiciones</label>
+                    <input type="checkbox" name = "checkbox" id="checkbox">
                 </div>
 
             <button>REGISTRARME</button>
+
+            <button> <a href="./login.html" class = 'yatengocuenta'>YA TENGO CUENTA</a></button>
+            
 
             </form>
         </section>
@@ -162,5 +147,7 @@
             </nav>
             <p> Integrantes del equipo: Sofia Kuo, Agustina Arduino, Vera Latrecchiana </p>
         </footer>
+
+        <script src="./js/register.js"></script>
     </body>
 </html>
