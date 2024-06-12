@@ -81,25 +81,24 @@
             <h2 class = "sub">
                 ¿OLVIDASTE TU CONTRASEÑA?
             </h2>
-    
-            <form action="login.html" method = "get">
-                <div>
-                    <label for ="recupero">Quiero recuperar mi contraseña</label>
-                        <input type = "checkbox" name = "recupero" required>
-                </div>
-            </form>
-    
+
             <p>Por favor, ingresá tu e-mail para restablecer tu contraseña </p>
-    
-            <form action="login.html" method="get">
+
+            <form action="login.html" method = "get" id="formulario">
                 <div>
                     <label for="contranueva">E-mail:</label>
-                    <input type="email" name="contranueva" placeholder="Ej: robertamanzur@hotmail.com" required>
+                    <input type="email" name="contranueva" placeholder="Ej: robertamanzur@hotmail.com" id="email">
+                    <div id="error-email" class="error"></div>
                 </div>
-    
-                <button>RECUPERAR</button>
-            </form>
 
+                <div>
+                    <label for ="recupero">Quiero recuperar mi contraseña</label>
+                    <input type = "checkbox" name = "recupero" id="recupero">
+                    <div id="error-checkbox" class="error"></div>
+                </div>
+
+            </form>
+    
         </section>
         
         <footer>
