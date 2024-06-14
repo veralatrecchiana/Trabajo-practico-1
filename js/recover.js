@@ -22,9 +22,9 @@ formulario.addEventListener('submit', function(event){
     }
     
     if (todosOK == true) {
-        this.submit()
+        
         document.querySelector('#cumplevalidaciones').innerHTML = 'Recibirás un email con las instrucciones para recuperar tu contraseña';
-        document.querySelector('#iralogin').innerHTML = '<a href= "../login.html">IR A LOGIN</a>';
+        document.querySelector('#iralogin').innerHTML = '<a href= "login.html">IR A LOGIN</a>';
     }
     
 });
