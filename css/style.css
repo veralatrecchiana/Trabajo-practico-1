@@ -99,19 +99,6 @@ button {
     
 }
 
-footer {
-    position:fixed;
-    bottom: 0%;
-    width: 100%;
-    background-color: black;
-    color: white;
-    text-align: center;
-    font-family: "Abel";
-    font-size: 70%;
-    margin-top: 80%;
-}
-
-
 .nombreart {
     text-align: left;
     font-family: "Bebas Neue";
@@ -293,6 +280,50 @@ footer {
         text-align: center;
     }
 
+}
+
+footer {
+    background-color: black;
+    padding: 20px 0;
+    padding-bottom: 0%;
+    text-align: center;
+    font-family: 'Abel';
+    bottom: 0%;
+    width: 100%;
+    margin-top: auto;
+    font-size: 70%;
+    position: fixed;
+}
+
+footer p {
+    color: white; 
+}
+
+.categorias {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.categorias li {
+    display: inline;
+}
+
+.categorias a {
+    color: white; 
+    text-decoration: none; 
+}
+
+.yatengocuenta {
+    background-color: black;
+    font-family: "Abel";
+    color:white;
+    width: 10%;
+    margin-top: 2%;
+    height: 5%;
 }
 
 

@@ -81,30 +81,58 @@
             <h2 class = "sub">
                 ¿OLVIDASTE TU CONTRASEÑA?
             </h2>
-    
-            <form action="login.html" method = "get">
-                <div>
-                    <label for ="recupero">Quiero recuperar mi contraseña</label>
-                        <input type = "checkbox" name = "recupero" required>
-                </div>
-            </form>
-    
+
             <p>Por favor, ingresá tu e-mail para restablecer tu contraseña </p>
-    
-            <form action="login.html" method="get">
+
+            <form action="login.html" method = "get" id="formulario">
                 <div>
                     <label for="contranueva">E-mail:</label>
-                    <input type="email" name="contranueva" placeholder="Ej: robertamanzur@hotmail.com" required>
+                    <input type="email" name="contranueva" placeholder="Ej: robertamanzur@hotmail.com" id="email">
+                    <div id="error-email"></div>
                 </div>
-    
-                <button>RECUPERAR</button>
-            </form>
 
+                <div>
+                    <label for ="recupero">Quiero recuperar mi contraseña</label>
+                    <input type = "checkbox" name = "recupero" id="recupero">
+                    <div id="error-checkbox"></div>
+                </div>
+
+            </form>
+    
         </section>
         
         <footer>
-            Integrantes del equipo: Sofia Kuo, Agustina Arduino, Vera Latrecchiana
+            <nav>
+                <ul class = 'categorias'>
+                    <li>
+                        <a href="./index.html">HOME</a>
+                    </li>
+                    <li>
+                        <a href="">ELECTRONICA</a>
+                    </li>
+                    <li>
+                        <a href="">ACCESORIOS</a>
+                    </li>
+                    <li>
+                        <a href="">HOMBRE</a>
+                    </li>
+                    <li>
+                    <a href="" class = 'categoriafooter5'>MUJER</a>
+                    </li>
+                    <li>
+                        <a href="./cart.html">CARRITO</a>
+                    </li>
+                    <li>
+                        <a href="./login.html">LOGIN</a>
+                    </li>
+                    <li>
+                        <a href="./register.html">REGISTER</a> 
+                    </li>
+                </ul>
+            </nav>
+            <p> Integrantes del equipo: Sofia Kuo, Agustina Arduino, Vera Latrecchiana </p>
         </footer>
         
+        <script src="./js/recover.js"></script>
     </body>
 </html>
