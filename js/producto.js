@@ -41,7 +41,6 @@ fetch(url)
     fav.addEventListener('click', function(e) {
         e.preventDefault();
         carrito.push(id);
-        // lo convierto en string para guardarlo en storage
         let carStr = JSON.stringify(carrito); 
         localStorage.setItem('cartItems', carStr);
 
