@@ -8,21 +8,23 @@ formulario.addEventListener('submit', function(event){
 
     document.querySelector('#error-email').innerHTML = '';
     document.querySelector('#error-checkbox').innerHTML = '';
+    document.querySelector('#cumplevalidaciones').innerHTML = '';
+    document.querySelector('#iralogin').innerHTML = '';
 
     if (campoEmail.value === '') {
         document.querySelector('#error-email').innerHTML = 'Por favor escriba su email';
         todosOK = false;
     }
 
-    if (checkboxRecupero.value == '') {
-        document.querySelector('error-checkbox').innerHTML = 'Por favor acepte el campo Quiero recuperar mi contraseña';
+    if (checkboxRecupero.checked === false) {
+        document.querySelector('#error-checkbox').innerHTML = 'Por favor acepte el campo Quiero recuperar mi contraseña';
         todosOK = false;
     }
     
     if (todosOK == true) {
-        this.submit();  
-        checkboxRecupero.innerHTML = 'Recibirás un email con las instrucciones para recuperar tu contraseña';
-        checkboxRecupero.innerHTML = 'IR A LOGIN';
+        
+        document.querySelector('#cumplevalidaciones').innerHTML = 'Recibirás un email con las instrucciones para recuperar tu contraseña';
+        document.querySelector('#iralogin').innerHTML = '<a href= "login.html">IR A LOGIN</a>'; //Pongo la ruta del login.html como si estuviese en el recover.html
     }
     
 });
