@@ -24,7 +24,7 @@ formulario.addEventListener('submit', function(event){
     if (todosOK == true) {
         
         document.querySelector('#cumplevalidaciones').innerHTML = 'Recibirás un email con las instrucciones para recuperar tu contraseña';
-        document.querySelector('#iralogin').innerHTML = '<a href= "login.html">IR A LOGIN</a>';
+        document.querySelector('#iralogin').innerHTML = '<a href= "login.html">IR A LOGIN</a>'; //Pongo la ruta del login.html como si estuviese en el recover.html
     }
     
 });
