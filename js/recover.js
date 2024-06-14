@@ -16,12 +16,13 @@ formulario.addEventListener('submit', function(event){
         todosOK = false;
     }
 
-    if (checkboxRecupero.checked == false) {
+    if (checkboxRecupero.checked === false) {
         document.querySelector('#error-checkbox').innerHTML = 'Por favor acepte el campo Quiero recuperar mi contraseña';
         todosOK = false;
     }
     
     if (todosOK == true) {
+        this.submit()
         document.querySelector('#cumplevalidaciones').innerHTML = 'Recibirás un email con las instrucciones para recuperar tu contraseña';
         document.querySelector('#iralogin').innerHTML = '<a href= "../login.html">IR A LOGIN</a>';
     }
