@@ -49,34 +49,31 @@
              </section>
 
              <script>
-                 fetch('https://fakestoreapi.com/products')
-                     .then(res => res.json())
-                     .then(products => {
-                         const nuevaTemporadaProducts = products.filter(product => {
-                             return product.id <= 5;
-                         });
-         
-                         const destacadosProducts = products.slice(5, 10);
-                         const saleProducts = products.slice(10); 
-         
-                         function generateProductHTML(product) {
-                             return `
-                                 <article class="productos">
-                                     <img src="${product.image}" alt="${product.title}">
-                                     <p class="nombre">${product.title}</p>
-                                     <p class="descripcion">${product.description}</p>
-                                     <p class="precio">$${product.price}</p>
-                                     <a href="./producto.html" class="btn-detalle">VER MÁS</a>  
-                                 </article>
-                             `;
-                         }
-         
-                         document.getElementById('nueva-temporada').innerHTML = nuevaTemporadaProducts.map(generateProductHTML).join('');
-         
-                         document.getElementById('destacados').innerHTML = destacadosProducts.map(generateProductHTML).join('');
-         
-                         document.getElementById('sale').innerHTML = saleProducts.map(generateProductHTML).join('');
-                     });
+                let url = "https://fakestoreapi.com/products"
+                    
+                    fetch('https://fakestoreapi.com/products/category/jewelry')
+                     .then(function(response){
+                            return response.json()
+                        })
+                     .then(function(data){
+                        let lista = document.querySelector(`section.${jewelry}`);
+                        let producto = '';                
+                        for(let i=0; i < info.length; i++){
+                        let producto = data[i];
+                        producto +=`<article>
+                                    <img src="${product.image}" alt="${product.title}">
+                                    <p class="nombre">${product.title}</p>
+                                    <p class="descripcion">${product.description}</p>
+                                    <p class="precio">${product.price} USD </p>
+                                    <a href="./producto.html?id=${producto.id}" class="btn-detalle">VER MÁS</a>
+                                    </article> `;
+                        }
+                        lista.innerHTML = productos;
+                     })
+                    .catch(function(error){
+                        console.log(error)
+                    })
+
              </script>
          </body>
          </html>         
