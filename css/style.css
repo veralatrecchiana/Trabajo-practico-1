@@ -345,7 +345,7 @@ section{
     justify-content: space-around;
 }
 
-.articulos{
+ .articulos{ 
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -353,7 +353,7 @@ section{
     padding: 0;
 }
 
-.productos{
+/*.productos{
     padding: 0.5%;
     flex: 30%;
     align-items: left;
@@ -364,7 +364,8 @@ section{
     color: black;
     width: 30%;
     margin-top: 0%;
-}
+}*/
+
 .productos img{
     width: 100%;
     height: auto;
