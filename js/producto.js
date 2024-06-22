@@ -1,51 +1,46 @@
-
 let qs = location.search; 
 let qsto = new URLSearchParams(qs); 
 let id = qsto.get('id'); 
 
-let url = `https://fakestoreapi.com/products/${id}`
+let url = `https://fakestoreapi.com/products/${id}`;
 
 fetch(url)
-    .then(function(response){
+    .then(function(response) {
         return response.json();
     })
-    .then(function(data){
+    .then(function(data) {
+        console.log(data); 
 
-        let title = document.querySelector('h1');
-        let image = document.querySelector('img');
-        let descripcion = document.querySelector('.descripciondetalle');
-        let precio = document.querySelector('.preciodescrip');
+        let nombreProducto = document.querySelector('.nombreart');
+        let categoriaProducto = document.querySelector('.categoria');
+        let precioProducto = document.querySelector('.preciodescrip');
+        let imagenProducto = document.querySelector('.im1');
+        let descripcionProducto = document.querySelector('.descripciondetalle');
 
-        title.innerText = data.name;
-        image.src=data.image;
-        descripcion.innerText += data.descripcion;
-        precio.innerText += data.precio;      
+        nombreProducto.textContent = data.title;
+        categoriaProducto.textContent = `Categoría: ${data.category}`;
+        precioProducto.textContent = `Precio: $${data.price}`;
+        imagenProducto.src = data.image;
+        descripcionProducto.textContent = data.description;
 
     })
-    .catch(function(error){
-        console.log(error);
-    })
+    .catch(function(error) {
+        console.error('Error fetching product details:', error);
+    });
 
-    let carrito = [];
+let carrito = [];
 
-    let recuperoStorage = localStorage.getItem('cartItems');
+let recuperoStorage = localStorage.getItem('cartItems');
+if (recuperoStorage !== null) {
+    carrito = JSON.parse(recuperoStorage);
+}
 
-    if (recuperoStorage !== null) {
-        
-        carrito = JSON.parse(recuperoStorage);
-       
-    }
-    
-    let fav = document.querySelector('.fav')
+let botonAgregar = document.querySelector('.agregar');
+botonAgregar.addEventListener('click', function(e) {
+    e.preventDefault();
+    carrito.push(id);
+    localStorage.setItem('cartItems', JSON.stringify(carrito));
 
-    fav.addEventListener('click', function(e) {
-        e.preventDefault();
-        carrito.push(id);
-        let carStr = JSON.stringify(carrito); 
-        localStorage.setItem('cartItems', carStr);
-
-        console.log('carrito: ', carrito);
-        console.log('localStorage', localStorage);
-    })
-
-    
+    console.log('Producto agregado al carrito:', id);
+    console.log('Carrito:', carrito);
+});
