@@ -25,7 +25,7 @@ fetch(url)
 
     })
     .catch(function(error) {
-        console.error('Error fetching product details:', error);
+        console.error(error);
     });
 
 let carrito = [];
