@@ -1,23 +1,30 @@
- 
-                    fetch('https://fakestoreapi.com/products/category/jewelry')
-                    .then(function(response){
-                           return response.json()
-                       })
-                    .then(function(data){
-                       let lista = document.querySelector(`section.${jewelry}`);
-                       let producto = '';                
-                       for(let i=0; i < info.length; i++){
-                       let producto = data[i];
-                       producto +=`<article>
-                                   <img src="${product.image}" alt="${product.title}">
-                                   <p class="nombre">${product.title}</p>
-                                   <p class="descripcion">${product.description}</p>
-                                   <p class="precio">${product.price} USD </p>
-                                   <a href="./producto.html?id=${producto.id}" class="btn-detalle">VER MÁS</a>
-                                   </article> `;
-                       }
-                       lista.innerHTML = productos;
-                    })
-                   .catch(function(error){
-                       console.log(error)
-                   })
+let url = "https://fakestoreapi.com/products";
+
+fetch(url)
+    .then(function(response) {
+        return response.json();
+    })
+    .then(function(data) {
+        console.log(data); 
+        let products = data;
+
+        let lista = document.querySelector('.lista');
+        let elementosLista = '';
+
+        for (let i = 0; i < products.length; i++) {
+            let product = products[i];
+            elementosLista += `<article>
+                                <img src="${product.image}" alt="${product.title}">
+                                <h2>${product.title}</h2>
+                                <p>Precio: $${product.price}</p>
+                                <a href="producto.html?id=${product.id}">Ver más</a>
+                              </article>`;
+        }
+
+        console.log(elementosLista);
+
+        lista.innerHTML = elementosLista;
+    })
+    .catch(function(error) {
+        console.log(error);
+    });
