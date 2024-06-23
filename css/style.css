@@ -504,12 +504,49 @@ a{
 }
 
 
+.empty {
+    text-align: center;
+    font-family: "Abel";
+}
+
+.finalizar-compra {
+    background-color: black;
+    font-family: "Abel";
+    color:white;
+    width: 15%;
+    margin-top: 2%;
+    height: 5%;
+
+}
 
 
+* {
+    box-sizing: border-box;
+}
 
+.lista {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
 
+.lista article,
+article {
+    width: 15%;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin: 10px 5px;
+}
 
+.detail {
+    width: 300px;
+}
 
+.lista article img, article img {
+    width: 100%;
+} pero habria q arreglarlo
 
 
 
