@@ -104,7 +104,9 @@ button {
     font-family: "Bebas Neue";
     font-weight: bold;
     font-size: 200%;
-    line-height: 10%;
+    line-height: 1.2;
+    margin-bottom: 10px;
+
 }
 
 .im1 {
@@ -165,7 +167,6 @@ button {
     margin-top: 0.1%;
     font-size: 90%;
     order: 2;
-
 }
 
 .infotitulo2 {
@@ -193,13 +194,13 @@ button {
     background-color: black;
     font-family: "Abel";
     color:white;
-    width: 20%;
-    height: 5%;
-    margin-top: 2%;
+    font-size: 16px;
+    padding: 12px 24px;
     position: flex;
     line-height: 1.5;
     align-self: left;
     text-align: center;
+    
 }
 
 .preciodescrip {
@@ -263,21 +264,15 @@ button {
         text-align: left;
         font-family: "Bebas Neue";
         font-weight: bold;
-        font-size: 200%;
+        font-size: 150%;
         line-height: 10%;
     }
 
     .agregar {
-        background-color: black;
-        font-family: "Abel";
-        color:white;
-        width: 25%;
-        height: 5%;
-        margin-top: 2%;
-        position: flex;
-        line-height: 1.5;
-        align-self: left;
-        text-align: center;
+        .agregar {
+        width: 100%;
+        margin-top: 10px;
+    }
     }
 
 }
