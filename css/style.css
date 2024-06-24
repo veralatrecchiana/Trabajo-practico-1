@@ -318,6 +318,13 @@ footer p {
     color:black;
 }
 
+h2 {
+    font-family: "Abel";
+    color:black;
+    font-weight: bold;
+    line-height: normal;
+    margin-top: 0%;
+}
 
 /*Agus
 =======*/
