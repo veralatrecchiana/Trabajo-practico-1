@@ -17,11 +17,11 @@ fetch(url)
         let imagenProducto = document.querySelector('.im1');
         let descripcionProducto = document.querySelector('.descripciondetalle');
 
-        nombreProducto.textContent = data.title;
-        categoriaProducto.textContent = `Categoría: ${data.category}`;
-        precioProducto.textContent = `Precio: $${data.price}`;
+        nombreProducto.innerHTML = data.title;
+        categoriaProducto.innerHTML = `Categoría: <a href='category.html'>${data.category}</a>`;
+        precioProducto.innerHTML = `Precio: $${data.price}`;
         imagenProducto.src = data.image;
-        descripcionProducto.textContent = data.description;
+        descripcionProducto.innerHTML = data.description;
 
     })
     .catch(function(error) {
