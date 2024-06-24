@@ -69,3 +69,39 @@ for (let categoria in categoria2) {
             console.log(error);
         });
 }
+
+let categoria3 = {
+    'mens-clothing': "men's clothing"
+};
+
+for (let categoria in categoria3) {
+    let url = `https://fakestoreapi.com/products/category/${categoria3[categoria]}`;
+
+    fetch(url)
+        .then(function(response) {
+            return response.json();
+        })
+        .then(function(data) {
+            console.log(data);
+            let products = data;
+
+            let lista = document.querySelector(`#${categoria}.lista`);
+            let elementosLista = '';
+
+            for (let i = 0; i < products.length; i++) {
+                let product = products[i];
+                elementosLista += `<article>
+                                    <img src="${product.image}" alt="${product.title}">
+                                    <h2>${product.title}</h2>
+                                    <p>Precio: $${product.price}</p>
+                                    <a href="producto.html?id=${product.id}">Ver más</a>
+                                  </article>`;
+            }
+
+            console.log(elementosLista);
+            lista.innerHTML = elementosLista;
+        })
+        .catch(function(error) {
+            console.log(error);
+        });
+}
