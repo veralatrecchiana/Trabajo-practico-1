@@ -22,7 +22,7 @@ function mostrarProductosEnCarrito(carrito) {
     // Iterar sobre cada producto en el carrito y hacer fetch a la API
     for (let i = 0; i < carrito.length; i++) {
         let id = carrito[i];
-        let url = 'https://fakestoreapi.com/products/${id}';
+        let url = `https://fakestoreapi.com/products/${id}`;
 
         // Fetch para obtener datos del producto
         fetch(url)
