@@ -1,13 +1,10 @@
 
-let categorias = {
-      'accesorios': 'jewelery',
-      'mens-clothing': "men's clothing",
-      'womens-clothing': "women's clothing",
-      'electronics': 'electronics'
+let categoria1 = {
+      'accesorios': 'jewelery'
   };
   
-  for (let categoria in categorias) {
-      let url = `https://fakestoreapi.com/products/category/${categorias[categoria]}`;
+  for (let categoria in categoria1) {
+      let url = `https://fakestoreapi.com/products/category/${categoria1[categoria]}`;
   
       fetch(url)
           .then(function(response) {
