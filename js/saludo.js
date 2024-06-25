@@ -1,15 +1,16 @@
-let email = localStorage.getItem("email");
-let contraseña = localStorage.getItem("contraseña");
+let email = localStorage.getItem("email")
 
-if (tomoStorage1 != null){
-    let saludo = `Bienvenido: ${email}`
-    let mostrarSaludo = document.querySelector(".head")
-    mostrarSaludo.innerText = saludo
-    let logout = document.querySelector(".logout")
-    logout.innerHTML += `<a class="logout" href="#">Log Out<a/>`
-    let desaparecer1 = document.querySelector(".login")
-    let desaparecer2 = document.querySelector(".registero")
-    desaparecer1.style.display = "none"
-    desaparecer2.style.display = "none"
-    console.log(tomoStorage1)
+if (email){
+    let guardarEmail = json.parse(email);
+    let nombre = guardarEmail.email;
+
+    let saludo = document.querySelector(".saludo");
+    saludo.innerText += `Bienvenido: ${email}`
+    let login = document.querySelector(".login")
+    let registrar = document.querySelector(".registrar")
+    registrar.style.display = "none"
+    register.style.display = "none"
+}else{
+    let saludo = document.querySelector(".saludo");
+    saludo.innerText = "Inicia secion para guardar tus datos";
 }
